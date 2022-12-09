@@ -1,5 +1,5 @@
 
 SELECT [State], COUNT(EmployeeID) as NumberOfEmployees
-FROM Employee
+FROM dbo.Employees
 GROUP BY [State];
 
